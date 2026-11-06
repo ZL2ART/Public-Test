@@ -1,0 +1,58 @@
+
+body {
+	 font-family:Georgia, serif;
+	 font-size:14px;
+	 margin-top:46px;     
+	 margin-left:10px;        /* margins */
+	 margin-right:0px;
+	 Padding:0;
+	 background-color:#cbfeff;
+	 }
+	 
+	 #navbar a:hover {                    /* makes the background color of the navbar (br) */
+	background-color:#1D9DA8;     /* text change when I hover over it */
+	 }
+	 
+	 #image-hover {
+		 border: 4.5px solid #cbfeff;
+	 }
+	 
+	 #image-hover:hover{
+		 border: 4.5px solid #1D9DA8;
+	 }
+	 
+	 #home-paragraph{
+		font-size:17.5px; 
+		 
+	 }
+	 
+   h1{
+   border:5px solid  #5FBEDB;     /* border so I can curve corners */
+   text-align:center;
+   background-color:#5FBEDB;
+   margin-left:-10px;            /* margins */
+   padding:0;
+   border-radius:0px 0px 10px 10px;        /*curved corners for h1 */
+   } 	
+   
+	   
+   
+#navbar a{                 /*navbar text control*/
+  float:left;
+  display: float;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 17px;
+}
+
+#navbar{                  /*navbar layout control*/
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background:#0dd1e4;     /*colour of the navbar*/
+  margin-right:10px;
+  margin-left:-10px;
+}
